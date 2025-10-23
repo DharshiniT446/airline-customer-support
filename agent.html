@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agent Dashboard - Airline Bot</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        #dashboard {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            position: sticky;
+            top: 0;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .user-msg {
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+        .bot-msg {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+        .small {
+            font-size: 0.85em;
+            color: #555;
+        }
+
+        .expand-btn {
+            padding: 2px 6px;
+            font-size: 0.8em;
+            margin-left: 5px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+
+        .expand-btn:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+<h2>✈️ Agent Dashboard - Airline Bot</h2>
+
+<div id="dashboard">
+    <table id="chatTable">
+        <thead>
+            <tr>
+                <th>Sender</th>
+                <th>Message</th>
+                <th>Intent</th>
+                <th>Confidence</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- chat rows will be added here dynamically -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+async function loadChats() {
+    const res = await fetch("/chat_history");
+    if(res.ok){
+        const history = await res.json();
+        const tbody = document.querySelector("#chatTable tbody");
+        tbody.innerHTML = ""; // clear old rows
+
+        history.forEach(msg => {
+            const tr = document.createElement("tr");
+
+            // truncate message if long
+            const preview = msg.message.length > 50 ? msg.message.slice(0,50) + "..." : msg.message;
+
+            tr.innerHTML = `
+                <td>${msg.sender === "user" ? "<span class='user-msg'>User</span>" : "<span class='bot-msg'>Bot</span>"}</td>
+                <td>
+                    <span class="msg-preview">${preview}</span>
+                    <button class="expand-btn">Expand</button>
+                </td>
+                <td>${msg.intent || '-'}</td>
+                <td>${msg.confidence !== null ? msg.confidence.toFixed(2) : '-'}</td>
+                <td><span class="small">${msg.timestamp}</span></td>
+            `;
+
+            // Add expand/collapse functionality
+            const expandBtn = tr.querySelector(".expand-btn");
+            const msgCell = tr.querySelector(".msg-preview");
+            expandBtn.onclick = () => {
+                if(expandBtn.textContent === "Expand"){
+                    msgCell.textContent = msg.full_message;
+                    expandBtn.textContent = "Collapse";
+                } else {
+                    msgCell.textContent = preview;
+                    expandBtn.textContent = "Expand";
+                }
+            }
+
+            tbody.appendChild(tr);
+        });
+
+        // scroll to last row if needed
+        if(history.length > 0) {
+            tbody.lastChild.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+}
+
+// Load chats every 2 seconds
+loadChats(); // initial load
+setInterval(loadChats, 2000);
+</script>
+</body>
+</html>

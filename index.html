@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Airline Customer Bot</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        #chat-container {
+            width: 400px;
+            max-width: 90%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        #chat {
+            padding: 15px;
+            height: 400px;
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .message {
+            padding: 10px 15px;
+            border-radius: 15px;
+            max-width: 80%;
+        }
+
+        .user {
+            background-color: #d0e6ff;
+            align-self: flex-end;
+            color: #0056b3;
+        }
+
+        .bot {
+            background-color: #e2ffd9;
+            align-self: flex-start;
+            color: #2e7d32;
+        }
+
+        #input-container {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            background-color: #fff;
+        }
+
+        #userInput {
+            flex: 1;
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        #sendBtn {
+            margin-left: 10px;
+            padding: 10px 15px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        #sendBtn:hover {
+            background-color: #0056b3;
+        }
+
+        #feedback {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            width: 400px;
+            max-width: 90%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: none;
+        }
+
+        #feedback select {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #feedback button {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #feedback button:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+
+<h2>🛫 Airline Customer Bot</h2>
+
+<div id="chat-container">
+    <div id="chat"></div>
+
+    <div id="input-container">
+        <input type="text" id="userInput" placeholder="Type your message here..." />
+        <button id="sendBtn" onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<div id="feedback">
+    <p>Was the prediction correct?</p>
+    <select id="correctType">
+        <option value="Cancel Trip">Cancel Trip</option>
+        <option value="Cancellation Policy">Cancellation Policy</option>
+        <option value="Carry On Luggage Faq">Carry On Luggage Faq</option>
+        <option value="Change Flight">Change Flight</option>
+        <option value="Check In Luggage Faq">Check In Luggage Faq</option>
+        <option value="Complaints">Complaints</option>
+        <option value="Damaged Bag">Damaged Bag</option>
+        <option value="Discounts">Discounts</option>
+        <option value="Fare Check">Fare Check</option>
+        <option value="Flight Status">Flight Status</option>
+        <option value="Flights Info">Flights Info</option>
+        <option value="Insurance">Insurance</option>
+        <option value="Medical Policy">Medical Policy</option>
+        <option value="Missing Bag">Missing Bag</option>
+        <option value="Pet Travel">Pet Travel</option>
+        <option value="Prohibited Items Faq">Prohibited Items Faq</option>
+        <option value="Seat Availability">Seat Availability</option>
+        <option value="Sports Music Gear">Sports Music Gear</option>
+    </select>
+    <button onclick="submitFeedback()">Submit Feedback</button>
+</div>
+
+<script>
+let lastUserMsg = ""; // store last user message for feedback
+
+// Load chat history when page loads
+window.onload = async function() {
+    const res = await fetch("/chat_history");
+    if(res.ok){
+        const history = await res.json();
+        const chat = document.getElementById("chat");
+        history.forEach(msg => {
+            const cls = msg.sender === "user" ? "user" : "bot";
+            chat.innerHTML += `<div class="message ${cls}">${msg.sender === "user" ? "You" : "Bot"}: ${msg.message}</div>`;
+        });
+        chat.scrollTop = chat.scrollHeight;
+    }
+}
+
+async function sendMessage() {
+    const msg = document.getElementById("userInput").value.trim();
+    if(!msg) return;
+
+    lastUserMsg = msg; // save message for feedback
+
+    const chat = document.getElementById("chat");
+    chat.innerHTML += `<div class="message user">You: ${msg}</div>`;
+    chat.scrollTop = chat.scrollHeight;
+
+    // Clear input immediately
+    document.getElementById("userInput").value = "";
+
+    // Send message to server
+    const res = await fetch("/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: msg })
+    });
+
+    const data = await res.json();
+    chat.innerHTML += `<div class="message bot">Bot: ${data.prediction}</div>`;
+    chat.scrollTop = chat.scrollHeight;
+
+    // Show feedback dropdown only if bot predicts wrong
+    if(data.show_feedback) {
+        document.getElementById("feedback").style.display = "block";
+        document.getElementById("correctType").value = data.prediction; // default
+    } else {
+        document.getElementById("feedback").style.display = "none";
+    }
+}
+
+async function submitFeedback() {
+    const correctType = document.getElementById("correctType").value;
+
+    await fetch("/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: lastUserMsg, correct_type: correctType })
+    });
+
+    document.getElementById("feedback").style.display = "none";
+}
+</script>
+
+</body>
+</html>

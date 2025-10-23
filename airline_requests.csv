@@ -1,0 +1,487 @@
+utterance,label
+Tell me about booking insurance options.,Insurance
+Any ongoing flight sale?,Discounts
+How to request wheelchair assistance?,Medical Policy
+What is your cancellation policy?,Cancellation Policy
+The staff behavior was rude.,Complaints
+Is insurance mandatory for booking?,Insurance
+Do you allow cricket kits as luggage?,Sports Music Gear
+Are there any seats left on booking AI303?,Seat Availability
+Can I carry a bird on booking?,Pet Travel
+Show me available bookings from Delhi to Goa.,Flights Info
+I want to file a complaint.,Complaints
+Can I change the booking date?,Change Flight
+Check trip status for AI202.,Flight Status
+Can I carry our guitar on board?,Sports Music Gear
+Can I carry medicines onboard?,Medical Policy
+Any ongoing flight sale?,Discounts
+Lost my bag after flight landing.,Missing Bag
+Show me available seats for 8PM booking.,Seat Availability
+How do I change the booking?,Change Flight
+List all bookings from Mumbai to Dubai.,Flights Info
+How much is the fare from Delhi to Mumbai?,Fare Check
+The staff behavior was rude.,Complaints
+How to request wheelchair assistance?,Medical Policy
+I’m unhappy with our last trip.,Complaints
+I want to know the airfare for our trip.,Fare Check
+Bag was torn on arrival.,Damaged Bag
+Is my booking on time?,Flight Status
+Is there a charge for sports equipment?,Sports Music Gear
+Cancel the ticket for tomorrow please.,Cancel Trip
+What does flight insurance cover?,Insurance
+How to request wheelchair assistance?,Medical Policy
+Can I take liquids over 100ml?,Prohibited Items Faq
+Any ongoing trip sale?,Discounts
+Is econothe class full?,Seat Availability
+Your service was very poor.,Complaints
+Who do I contact for damaged baggage?,Damaged Bag
+What if I need medical help during trip?,Medical Policy
+My baggage didn’t arrive at the destination.,Missing Bag
+Can I carry liquids in hand baggage?,Carry On Luggage Faq
+Do you allow cats onboard?,Pet Travel
+What is the ticket price for next week?,Fare Check
+What’s the current status of the flight?,Flight Status
+What is your pet travel policy?,Pet Travel
+My luggage handle broke when I received it.,Damaged Bag
+Can I change the booking date?,Change Flight
+The staff behavior was rude.,Complaints
+Is there a pet fee?,Pet Travel
+Need to modify my booking time.,Change Flight
+Is my flight on time?,Flight Status
+Tell me about trip insurance options.,Insurance
+Is the 8PM flight to Chennai running on time?,Flight Status
+How to claim insurance for delayed flights?,Insurance
+Tell me all trips to Hyderabad tonight.,Flights Info
+Show me available flights from Delhi to Goa.,Flights Info
+What does trip insurance cover?,Insurance
+Any ongoing flight sale?,Discounts
+Can I take liquids over 100ml?,Prohibited Items Faq
+How to request wheelchair assistance?,Medical Policy
+Can I carry the guitar on board?,Sports Music Gear
+I can’t find my suitcase.,Missing Bag
+Is there a coupon I can use?,Discounts
+My luggage handle broke when I received it.,Damaged Bag
+What is your cancellation policy?,Cancellation Policy
+Can I check in the musical instrument?,Check In Luggage Faq
+I want to cancel our booking booking.,Cancel Trip
+How much refund will I get on cancellation?,Cancellation Policy
+Tell me about current deals or promotions.,Discounts
+Do you allow cats onboard?,Pet Travel
+I want to reschedule my booking.,Change Flight
+Is insurance mandatory for booking?,Insurance
+Show me ticket cost for econothe class.,Fare Check
+I’m unhappy with my last flight.,Complaints
+Any ongoing trip sale?,Discounts
+Tell me about flight insurance options.,Insurance
+How many bags can I check in?,Check In Luggage Faq
+Show me ticket cost for econothe class.,Fare Check
+List all prohibited items.,Prohibited Items Faq
+Need to modify the booking time.,Change Flight
+Show me available seats for 8PM trip.,Seat Availability
+What if I need medical help during trip?,Medical Policy
+Lost our bag after booking landing.,Missing Bag
+Do you allow cricket kits as luggage?,Sports Music Gear
+How to claim insurance for delayed bookings?,Insurance
+Tell me about current deals or promotions.,Discounts
+I want to cancel the trip booking.,Cancel Trip
+Lost my bag after booking landing.,Missing Bag
+How can I cancel my journey?,Cancel Trip
+How to claim insurance for delayed bookings?,Insurance
+What is your medical travel policy?,Medical Policy
+Check seat availability for tomorrow.,Seat Availability
+Can I carry liquids in hand baggage?,Carry On Luggage Faq
+What does flight insurance cover?,Insurance
+How to check in musical instruments?,Sports Music Gear
+Is backpack considered carry-on?,Carry On Luggage Faq
+Is there a coupon I can use?,Discounts
+Tell me if the flight is delayed.,Flight Status
+Show me available trips from Delhi to Goa.,Flights Info
+Bag was torn on arrival.,Damaged Bag
+I want to know the airfare for the trip.,Fare Check
+What does booking insurance cover?,Insurance
+I can’t find the suitcase.,Missing Bag
+I want to know the airfare for our trip.,Fare Check
+How many seats are available?,Seat Availability
+How do I change our booking?,Change Flight
+Is there a charge for sports equipment?,Sports Music Gear
+How to request wheelchair assistance?,Medical Policy
+Check seat availability for tomorrow.,Seat Availability
+Is the 8PM booking to Chennai running on time?,Flight Status
+How many bags can I check in?,Check In Luggage Faq
+What is your pet travel policy?,Pet Travel
+What is your medical travel policy?,Medical Policy
+Can I carry my guitar on board?,Sports Music Gear
+I’m unhappy with my last booking.,Complaints
+Do you charge extra for baggage?,Check In Luggage Faq
+Who do I contact for damaged baggage?,Damaged Bag
+I received a damaged bag from the airline.,Damaged Bag
+I want to cancel my flight booking.,Cancel Trip
+Is our flight on time?,Flight Status
+Report missing baggage please.,Missing Bag
+Is there a coupon I can use?,Discounts
+Check seat availability for tomorrow.,Seat Availability
+List all bookings from Mumbai to Dubai.,Flights Info
+What items are not allowed in baggage?,Prohibited Items Faq
+Lost my bag after trip landing.,Missing Bag
+Is there any charge for cancellation?,Cancellation Policy
+Can I carry my guitar on board?,Sports Music Gear
+Who do I contact for damaged baggage?,Damaged Bag
+I want to cancel my trip booking.,Cancel Trip
+Is insurance mandatory for booking?,Insurance
+Is my flight on time?,Flight Status
+Show me available trips from Delhi to Goa.,Flights Info
+Check trip status for AI202.,Flight Status
+I can’t find the suitcase.,Missing Bag
+I can’t find my suitcase.,Missing Bag
+My suitcase was damaged during the trip.,Damaged Bag
+List all flights from Mumbai to Dubai.,Flights Info
+How to check in musical instruments?,Sports Music Gear
+Show me ticket cost for econothe class.,Fare Check
+What’s the current status of my trip?,Flight Status
+Do you charge extra for baggage?,Check In Luggage Faq
+I need to cancel our reservation.,Cancel Trip
+Is there a coupon I can use?,Discounts
+I want to know the airfare for our trip.,Fare Check
+What items are allowed in carry-on baggage?,Carry On Luggage Faq
+Is economy class full?,Seat Availability
+What is the ticket price for next week?,Fare Check
+How much refund will I get on cancellation?,Cancellation Policy
+I want to cancel my flight booking.,Cancel Trip
+Is backpack considered carry-on?,Carry On Luggage Faq
+I need flight timings for Bangalore to Pune.,Flights Info
+Show me available seats for 8PM booking.,Seat Availability
+Is my booking on time?,Flight Status
+Cancel the ticket for tomorrow please.,Cancel Trip
+Do you allow passengers with medical conditions?,Medical Policy
+Tell me about current deals or promotions.,Discounts
+What’s the current status of our flight?,Flight Status
+What is your cancellation policy?,Cancellation Policy
+Who do I contact for damaged baggage?,Damaged Bag
+I want to know the airfare for my trip.,Fare Check
+Cancel our ticket for tomorrow please.,Cancel Trip
+Can I get a refund if I cancel the booking?,Cancellation Policy
+Do you charge extra for baggage?,Check In Luggage Faq
+Do you allow passengers with medical conditions?,Medical Policy
+What is your pet travel policy?,Pet Travel
+Do you have any booking discounts today?,Discounts
+I want to know the airfare for our trip.,Fare Check
+Can I carry medicines onboard?,Medical Policy
+Need to modify my flight time.,Change Flight
+Please help me update our booking details.,Change Flight
+Can I change our booking date?,Change Flight
+Tell me the baggage size limits.,Check In Luggage Faq
+My baggage didn’t arrive at the destination.,Missing Bag
+Can I carry a bird on flight?,Pet Travel
+Can I take liquids over 100ml?,Prohibited Items Faq
+What is your cancellation policy?,Cancellation Policy
+What is the weight limit for hand luggage?,Carry On Luggage Faq
+How much refund will I get on cancellation?,Cancellation Policy
+Are there any seats left on trip AI303?,Seat Availability
+I received a damaged bag from the airline.,Damaged Bag
+How much is the fare from Delhi to Mumbai?,Fare Check
+Can I get a refund if I cancel my trip?,Cancellation Policy
+Is insurance mandatory for booking?,Insurance
+Can you help me cancel the trip?,Cancel Trip
+Can I carry medicines onboard?,Medical Policy
+Cancel my ticket for tomorrow please.,Cancel Trip
+What is your pet travel policy?,Pet Travel
+Is there a coupon I can use?,Discounts
+I want to cancel the trip booking.,Cancel Trip
+How do I change my booking?,Change Flight
+Can I get a refund if I cancel my flight?,Cancellation Policy
+I need trip timings for Bangalore to Pune.,Flights Info
+What items are not allowed in baggage?,Prohibited Items Faq
+What is the maximum luggage weight allowed?,Check In Luggage Faq
+Can you help me cancel my trip?,Cancel Trip
+What’s the current status of our booking?,Flight Status
+Is insurance mandatory for booking?,Insurance
+Can I take liquids over 100ml?,Prohibited Items Faq
+What is your medical travel policy?,Medical Policy
+List all prohibited items.,Prohibited Items Faq
+Can I carry my guitar on board?,Sports Music Gear
+Can I get a refund if I cancel my trip?,Cancellation Policy
+Show me ticket cost for economy class.,Fare Check
+Are sharp objects allowed in luggage?,Prohibited Items Faq
+What bookings are there tomorrow morning?,Flights Info
+Can I change the booking date?,Change Flight
+What is your pet travel policy?,Pet Travel
+My luggage handle broke when I received it.,Damaged Bag
+Is there a charge for sports equipment?,Sports Music Gear
+Is there a pet fee?,Pet Travel
+Who do I contact for damaged baggage?,Damaged Bag
+Is there a coupon I can use?,Discounts
+Please help me update the booking details.,Change Flight
+I want to cancel the booking booking.,Cancel Trip
+How to check in musical instruments?,Sports Music Gear
+Can I carry a bird on trip?,Pet Travel
+Can I take liquids over 100ml?,Prohibited Items Faq
+Can I change the booking date?,Change Flight
+I want to file a complaint.,Complaints
+Can I carry a bird on trip?,Pet Travel
+The staff behavior was rude.,Complaints
+Is there a charge for sports equipment?,Sports Music Gear
+Can I carry my guitar on board?,Sports Music Gear
+The staff behavior was rude.,Complaints
+I want to know the airfare for my trip.,Fare Check
+Show me available flights from Delhi to Goa.,Flights Info
+Is insurance mandatory for booking?,Insurance
+I received a damaged bag from the airline.,Damaged Bag
+Is the 8PM flight to Chennai running on time?,Flight Status
+My baggage didn’t arrive at the destination.,Missing Bag
+What items are allowed in carry-on baggage?,Carry On Luggage Faq
+What is the weight limit for hand luggage?,Carry On Luggage Faq
+How can I complain about lost baggage?,Complaints
+What is your cancellation policy?,Cancellation Policy
+Tell me about the ticket cancellation rules.,Cancellation Policy
+Please help me update my trip details.,Change Flight
+Tell me all flights to Hyderabad tonight.,Flights Info
+Can I buy travel insurance with our ticket?,Insurance
+Tell me about the ticket cancellation rules.,Cancellation Policy
+Do you allow cats onboard?,Pet Travel
+I want to know the airfare for the trip.,Fare Check
+Who do I contact for damaged baggage?,Damaged Bag
+What is the maximum luggage weight allowed?,Check In Luggage Faq
+Tell me the baggage size limits.,Check In Luggage Faq
+Is economy class full?,Seat Availability
+List all flights from Mumbai to Dubai.,Flights Info
+Is there any charge for cancellation?,Cancellation Policy
+How many bags can I check in?,Check In Luggage Faq
+Report missing baggage please.,Missing Bag
+Bag was torn on arrival.,Damaged Bag
+Show me available bookings from Delhi to Goa.,Flights Info
+Are sharp objects allowed in luggage?,Prohibited Items Faq
+What is the maximum luggage weight allowed?,Check In Luggage Faq
+Your service was very poor.,Complaints
+Is our booking on time?,Flight Status
+Can I carry batteries or power banks?,Prohibited Items Faq
+I want to reschedule our booking.,Change Flight
+What is your pet travel policy?,Pet Travel
+Can I carry a bird on trip?,Pet Travel
+Can I buy travel insurance with my ticket?,Insurance
+What is your pet travel policy?,Pet Travel
+Do you have any trip discounts today?,Discounts
+How many seats are available?,Seat Availability
+How many bags can I check in?,Check In Luggage Faq
+Tell me the baggage size limits.,Check In Luggage Faq
+What if I need medical help during booking?,Medical Policy
+What is the ticket price for next week?,Fare Check
+Can I check in the musical instrument?,Check In Luggage Faq
+Need to modify the booking time.,Change Flight
+Can I bring the surfboard on flight?,Sports Music Gear
+Show me available seats for 8PM flight.,Seat Availability
+Tell me about current deals or promotions.,Discounts
+I need to cancel our reservation.,Cancel Trip
+Can I carry liquids in hand baggage?,Carry On Luggage Faq
+What items are not allowed in baggage?,Prohibited Items Faq
+What is your medical travel policy?,Medical Policy
+Who do I contact for damaged baggage?,Damaged Bag
+What’s the current status of the booking?,Flight Status
+Who do I contact for damaged baggage?,Damaged Bag
+Report missing baggage please.,Missing Bag
+What is the ticket price for next week?,Fare Check
+Are sharp objects allowed in luggage?,Prohibited Items Faq
+Show me available bookings from Delhi to Goa.,Flights Info
+Can I bring our surfboard on booking?,Sports Music Gear
+Tell me the baggage size limits.,Check In Luggage Faq
+Who do I contact for missing luggage?,Missing Bag
+Tell me about current deals or promotions.,Discounts
+What is the weight limit for hand luggage?,Carry On Luggage Faq
+How many bags can I check in?,Check In Luggage Faq
+Can I change our trip date?,Change Flight
+How much refund will I get on cancellation?,Cancellation Policy
+What is your pet travel policy?,Pet Travel
+Tell me if the flight is delayed.,Flight Status
+Is econothe class full?,Seat Availability
+What is the weight limit for hand luggage?,Carry On Luggage Faq
+How many bags can I check in?,Check In Luggage Faq
+I need to cancel the reservation.,Cancel Trip
+Show me ticket cost for econothe class.,Fare Check
+Is there a charge for sports equipment?,Sports Music Gear
+My baggage didn’t arrive at the destination.,Missing Bag
+Can I carry a bird on flight?,Pet Travel
+Tell me all trips to Hyderabad tonight.,Flights Info
+I need trip timings for Bangalore to Pune.,Flights Info
+Is backpack considered carry-on?,Carry On Luggage Faq
+Can you help me cancel the trip?,Cancel Trip
+How can I complain about lost baggage?,Complaints
+Tell me about the ticket cancellation rules.,Cancellation Policy
+Is the 8PM flight to Chennai running on time?,Flight Status
+Need to modify the trip time.,Change Flight
+Is there a coupon I can use?,Discounts
+How can I complain about lost baggage?,Complaints
+Is there any charge for cancellation?,Cancellation Policy
+What does flight insurance cover?,Insurance
+I’m unhappy with my last flight.,Complaints
+Do you allow passengers with medical conditions?,Medical Policy
+What items are not allowed in baggage?,Prohibited Items Faq
+What bookings are there tomorrow morning?,Flights Info
+Tell me about the ticket cancellation rules.,Cancellation Policy
+How many bags can I check in?,Check In Luggage Faq
+Is there a coupon I can use?,Discounts
+Do you have any trip discounts today?,Discounts
+Are there any offers for students?,Discounts
+Please help me update the flight details.,Change Flight
+My suitcase was damaged during the booking.,Damaged Bag
+How to claim insurance for delayed trips?,Insurance
+Cancel our ticket for tomorrow please.,Cancel Trip
+Tell me about current deals or promotions.,Discounts
+Can you help me cancel the trip?,Cancel Trip
+Show me ticket cost for economy class.,Fare Check
+Can I check in the musical instrument?,Check In Luggage Faq
+Do you charge extra for baggage?,Check In Luggage Faq
+Who do I contact for damaged baggage?,Damaged Bag
+Show me available seats for 8PM flight.,Seat Availability
+What if I need medical help during flight?,Medical Policy
+Can I carry liquids in hand baggage?,Carry On Luggage Faq
+Lost our bag after booking landing.,Missing Bag
+Tell me if the trip is delayed.,Flight Status
+Can you help me cancel my trip?,Cancel Trip
+Check booking fare for tomorrow morning.,Fare Check
+The staff behavior was rude.,Complaints
+I need trip timings for Bangalore to Pune.,Flights Info
+Check trip status for AI202.,Flight Status
+Can I carry liquids in hand baggage?,Carry On Luggage Faq
+How much refund will I get on cancellation?,Cancellation Policy
+I can’t find our suitcase.,Missing Bag
+Are sharp objects allowed in luggage?,Prohibited Items Faq
+Tell me about flight insurance options.,Insurance
+What is your pet travel policy?,Pet Travel
+Can I take my dog on the booking?,Pet Travel
+Can I get a refund if I cancel our trip?,Cancellation Policy
+Can I take liquids over 100ml?,Prohibited Items Faq
+Do you allow passengers with medical conditions?,Medical Policy
+Do you allow cats onboard?,Pet Travel
+Are sharp objects allowed in luggage?,Prohibited Items Faq
+What items are allowed in carry-on baggage?,Carry On Luggage Faq
+Tell me the baggage size limits.,Check In Luggage Faq
+Lost my bag after booking landing.,Missing Bag
+What is the weight limit for hand luggage?,Carry On Luggage Faq
+What does flight insurance cover?,Insurance
+Can I get a refund if I cancel my flight?,Cancellation Policy
+Who do I contact for missing luggage?,Missing Bag
+How to request wheelchair assistance?,Medical Policy
+Can I take the dog on the flight?,Pet Travel
+What is the weight limit for hand luggage?,Carry On Luggage Faq
+List all flights from Mumbai to Dubai.,Flights Info
+Your service was very poor.,Complaints
+Can I take a laptop bag onboard?,Carry On Luggage Faq
+Is there a pet fee?,Pet Travel
+How to check in musical instruments?,Sports Music Gear
+How can I complain about lost baggage?,Complaints
+The staff behavior was rude.,Complaints
+Is backpack considered carry-on?,Carry On Luggage Faq
+I can’t find the suitcase.,Missing Bag
+How to claim insurance for delayed trips?,Insurance
+Any ongoing trip sale?,Discounts
+How many seats are available?,Seat Availability
+Can I carry batteries or power banks?,Prohibited Items Faq
+Tell me about booking insurance options.,Insurance
+What items are allowed in carry-on baggage?,Carry On Luggage Faq
+Who do I contact for damaged baggage?,Damaged Bag
+My luggage handle broke when I received it.,Damaged Bag
+Can I carry our guitar on board?,Sports Music Gear
+Is econoour class full?,Seat Availability
+Is economy class full?,Seat Availability
+I want to know the airfare for my trip.,Fare Check
+Tell me all bookings to Hyderabad tonight.,Flights Info
+How many seats are available?,Seat Availability
+Can you help me cancel our trip?,Cancel Trip
+Tell me about the ticket cancellation rules.,Cancellation Policy
+Report missing baggage please.,Missing Bag
+Can I take our dog on the flight?,Pet Travel
+List all prohibited items.,Prohibited Items Faq
+Do you allow cricket kits as luggage?,Sports Music Gear
+Can I carry batteries or power banks?,Prohibited Items Faq
+Is our booking on time?,Flight Status
+I need trip timings for Bangalore to Pune.,Flights Info
+I need booking timings for Bangalore to Pune.,Flights Info
+Check booking fare for tomorrow morning.,Fare Check
+Please help me update the booking details.,Change Flight
+How much refund will I get on cancellation?,Cancellation Policy
+What trips are there tomorrow morning?,Flights Info
+Is econothe class full?,Seat Availability
+How do I change my booking?,Change Flight
+How to claim insurance for delayed bookings?,Insurance
+I’m unhappy with the last booking.,Complaints
+Can I buy travel insurance with my ticket?,Insurance
+What items are allowed in carry-on baggage?,Carry On Luggage Faq
+How can I cancel our journey?,Cancel Trip
+I want to file a complaint.,Complaints
+Is there a charge for sports equipment?,Sports Music Gear
+My baggage didn’t arrive at the destination.,Missing Bag
+The staff behavior was rude.,Complaints
+Can I carry liquids in hand baggage?,Carry On Luggage Faq
+What is the ticket price for next week?,Fare Check
+Can I get a refund if I cancel my trip?,Cancellation Policy
+Who do I contact for damaged baggage?,Damaged Bag
+Tell me all flights to Hyderabad tonight.,Flights Info
+What if I need medical help during flight?,Medical Policy
+Do you allow passengers with medical conditions?,Medical Policy
+Do you allow passengers with medical conditions?,Medical Policy
+Is econoour class full?,Seat Availability
+Check seat availability for tomorrow.,Seat Availability
+I received a damaged bag from the airline.,Damaged Bag
+I want to reschedule my flight.,Change Flight
+Can I carry a bird on booking?,Pet Travel
+Can I bring our surfboard on booking?,Sports Music Gear
+Can I change the booking date?,Change Flight
+Need to modify our flight time.,Change Flight
+Can I carry medicines onboard?,Medical Policy
+Can I take a laptop bag onboard?,Carry On Luggage Faq
+I want to cancel our trip booking.,Cancel Trip
+Are sharp objects allowed in luggage?,Prohibited Items Faq
+Is economy class full?,Seat Availability
+List all flights from Mumbai to Dubai.,Flights Info
+How to check in musical instruments?,Sports Music Gear
+Can I buy travel insurance with the ticket?,Insurance
+What’s the current status of my flight?,Flight Status
+I want to reschedule our flight.,Change Flight
+Is there a charge for sports equipment?,Sports Music Gear
+Tell me about current deals or promotions.,Discounts
+How many seats are available?,Seat Availability
+I need to cancel our reservation.,Cancel Trip
+How can I cancel my journey?,Cancel Trip
+My suitcase was damaged during the trip.,Damaged Bag
+Check booking status for AI202.,Flight Status
+Bag was torn on arrival.,Damaged Bag
+What is your medical travel policy?,Medical Policy
+How many seats are available?,Seat Availability
+Are sharp objects allowed in luggage?,Prohibited Items Faq
+Do you charge extra for baggage?,Check In Luggage Faq
+Are there any seats left on trip AI303?,Seat Availability
+Report missing baggage please.,Missing Bag
+My suitcase was damaged during the trip.,Damaged Bag
+Do you have any flight discounts today?,Discounts
+Check trip status for AI202.,Flight Status
+What is your medical travel policy?,Medical Policy
+How many bags can I check in?,Check In Luggage Faq
+I want to file a complaint.,Complaints
+Check booking status for AI202.,Flight Status
+Can I carry batteries or power banks?,Prohibited Items Faq
+Can I carry a bird on booking?,Pet Travel
+Do you charge extra for baggage?,Check In Luggage Faq
+Check trip fare for tomorrow morning.,Fare Check
+Can you help me cancel our trip?,Cancel Trip
+Tell me if the booking is delayed.,Flight Status
+Is there any charge for cancellation?,Cancellation Policy
+Can I carry liquids in hand baggage?,Carry On Luggage Faq
+I want to file a complaint.,Complaints
+Do you charge extra for baggage?,Check In Luggage Faq
+Any ongoing trip sale?,Discounts
+How much is the fare from Delhi to Mumbai?,Fare Check
+List all prohibited items.,Prohibited Items Faq
+Can I carry liquids in hand baggage?,Carry On Luggage Faq
+I’m unhappy with our last trip.,Complaints
+What is the weight limit for hand luggage?,Carry On Luggage Faq
+Show me ticket cost for econoour class.,Fare Check
+What items are allowed in carry-on baggage?,Carry On Luggage Faq
+I can’t find the suitcase.,Missing Bag
+Lost our bag after booking landing.,Missing Bag
+How can I complain about lost baggage?,Complaints
+Need to modify my booking time.,Change Flight
+What is the maximum luggage weight allowed?,Check In Luggage Faq
+What items are not allowed in baggage?,Prohibited Items Faq
+Are sharp objects allowed in luggage?,Prohibited Items Faq
+My baggage didn’t arrive at the destination.,Missing Bag
+Is there a charge for sports equipment?,Sports Music Gear
+Can I carry the guitar on board?,Sports Music Gear
